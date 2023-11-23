@@ -17,5 +17,5 @@ Ncomp: Number of components
 Number of Molecs for Each Box: The lines after this line shows the number of molecules for each component in each box. If two simulation boxes are simulated, there must be two lines, each showing the number of molecules of each component.
 Epsilon Sigma ln[Q] for each component: Three lines after this one show epsilon, sigma, and the natural logarithm of isolated molecule partition function for each component.
 Nreact: Number of reactions. Stoichiometry of each reactions should be given after this line.
-For more details, please refer to "Scaling Towards the Critical Point in the Combined Reaction/Gibbs Ensemble" from H. Mert Polat, Silvia Lasala, Frederick de Meyer, Celine Houriez, Othonas A. Moultos, and Thijs J. H. Vlugt.
+For more details, please refer to "Scaling Towards the Critical Point in the Combined Reaction/Gibbs Ensemble" from H. Mert Polat, Silvia Lasala, Frederick de Meyer, Celine Houriez, Othonas A. Moultos, and Thijs J. H. Vlugt (under review).
 
