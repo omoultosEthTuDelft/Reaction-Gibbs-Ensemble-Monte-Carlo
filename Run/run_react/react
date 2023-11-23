@@ -1,0 +1,27 @@
+#!/bin/tcsh
+
+cat > Input <<endofdata1
+Ncycle   Ninit   Linit   Temp  
+100     200     .true.  270 
+Pdisp    Pswap   Pvol    Preact
+0.80      0.0    0       0.20
+Deltax   Deltav  Lnpt  Press 
+1.5       1000   .false. 10 
+Box(1)   Box(2)
+44.948     271.344 
+Ncomp
+2
+Number of Molecs for Each Box
+100    800 
+20    80 
+Epsilon Sigma ln[Q] for each component
+262.17 445.0
+3.727  4.45
+430.200 875.440 
+Nreact
+1
+-2 1
+endofdata1
+
+time ../../Source/a.out
+
